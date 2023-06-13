@@ -157,7 +157,7 @@ public:
 			sum += marks_list[i];
 		}
 
-		double avg = sum / num_of_subjects;
+		double avg = double(sum) / num_of_subjects;
 		std::cout << "Average mark of the student is " << avg << std::endl;
 
 		return avg;
