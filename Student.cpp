@@ -1,7 +1,6 @@
 
 #include <iostream>
 #include <string>
-#include <fstream>
 
 class Student {
 	std::string name;
