@@ -23,7 +23,7 @@ public:
 		grade = 0;
 		num_of_subjects = 0;
 
-		//marks_list = new double[num_of_subjects];
+		marks_list = new double[num_of_subjects];
 	}
 
 	Student(std::string n, std::string sn, int a, std::string f, int g)
